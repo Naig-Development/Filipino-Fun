@@ -1,0 +1,150 @@
+<!-- Features Section - Fixed first feature card -->
+<div class="features-container">
+    <div class="feature-card reveal">
+      <div class="feature-icon">
+        <i class="fas fa-users"></i>
+      </div>
+      <h3>Active Filipino Community</h3>
+      <p>Connect with thousands of active Filipino members from around the world. Share experiences, make new friends, and feel at home.</p>
+    </div>
+    <!-- Other feature cards remain the same -->
+  </div>
+  
+  <!-- Stats Section - Fixed structure -->
+  <div class="stats-container">
+    <div class="stat-card reveal">
+      <div class="stat-number" data-count="5000">0</div>
+      <p>Members</p>
+    </div>
+    <div class="stat-card reveal">
+      <div class="stat-number" data-count="1500">0</div>
+      <p>Active Daily</p>
+    </div>
+    <div class="stat-card reveal">
+      <div class="stat-number" data-count="50">0</div>
+      <p>Channels</p>
+    </div>
+    <div class="stat-card reveal">
+      <div class="stat-number" data-count="100">0</div>
+      <p>Server Boosts</p>
+    </div>
+  </div>
+  
+  <!-- Team Section - With "See More" button -->
+  <style>
+    /* Add these styles to your existing CSS */
+    .team-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    
+    .team-card {
+      height: 450px; /* Fixed height for consistency */
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .team-img {
+      height: 250px;
+      width: 100%;
+      object-fit: cover;
+    }
+    
+    .hidden-staff {
+      display: none;
+    }
+    
+    .see-more-btn {
+      background-color: var(--flag-blue);
+      color: var(--text-light);
+      padding: 0.8rem 2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      display: block;
+      margin: 2rem auto 0;
+      border: none;
+      cursor: pointer;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+    }
+    
+    .see-more-btn:hover {
+      background-color: var(--flag-gold);
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+  </style>
+  
+  <!-- Team section with hidden staff -->
+  <div class="team-container">
+    <!-- First 4 visible staff cards remain the same -->
+    
+    <!-- Hidden staff members -->
+    <div class="team-card reveal hidden-staff">
+      <img src="https://i.imgur.com/8MKeVq2.jpg" alt="Team Member" class="team-img">
+      <div class="team-info">
+        <h3>Paolo Mendoza</h3>
+        <p>Events Moderator</p>
+        <p>Helps organize community events and ensures everyone has a great time.</p>
+        <div class="team-social">
+          <a href="#"><i class="fab fa-discord"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="team-card reveal hidden-staff">
+      <img src="https://i.imgur.com/Y8xPfC0.jpg" alt="Team Member" class="team-img">
+      <div class="team-info">
+        <h3>Lucia Aquino</h3>
+        <p>Community Moderator</p>
+        <p>Ensures our channels remain friendly and welcoming for all members.</p>
+        <div class="team-social">
+          <a href="#"><i class="fab fa-discord"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Add See More button -->
+  <button class="see-more-btn" id="seeMoreStaff">See More Staff</button>
+  
+  <!-- Fix Footer Resources Section -->
+  <div class="footer-links">
+    <div class="footer-link-group">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#stats">Community</a></li>
+        <li><a href="#team">Staff</a></li>
+      </ul>
+    </div>
+    <div class="footer-link-group">
+      <h3>Resources</h3>
+      <ul>
+        <li><a href="#">Server Rules</a></li>
+        <li><a href="#">Guidelines</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+    <div class="footer-link-group">
+      <h3>Connect</h3>
+      <ul>
+        <li><a href="#"><i class="fab fa-discord"></i> Discord</a></li>
+        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  
+  

@@ -1,0 +1,43 @@
+{
+  "name": "filipino-bot",
+  "version": "1.0.0",
+  "description": "Bot",
+  "main": "shard.js",
+  "scripts": {
+    "start": "node --trace-warnings shard.js",
+    "test": "npx nodemon"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "type": "commonjs",
+  "author": "CharlesNaig",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/node-pre-gyp": "^0.4.5",
+    "@discordjs/rest": "^2.2.0",
+    "@discordjs/voice": "^0.18.0",
+    "axios": "^1.10.0",
+    "canvas": "^3.1.0",
+    "chalk": "^4.1.2",
+    "child_process": "^1.0.2",
+    "compression": "^1.8.0",
+    "discord-gamecord": "^4.4.2",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "ffmpeg": "^0.0.4",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.9.1",
+    "mp3-duration": "^1.1.0",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "opusscript": "^0.0.8",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "punycode": "^2.3.1",
+    "signale": "^1.4.0",
+    "systeminformation": "^5.25.11"
+  }
+}

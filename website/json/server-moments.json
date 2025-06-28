@@ -1,0 +1,25 @@
+{
+  "moments": {
+    "moment-1": {
+      "position": 1,
+      "title": "Title of the moment",
+      "hashtags": ["#12311211312", "#123123"],
+      "description": "paragraph of text",
+      "ImageUrl": "https://cdn.discordapp.com/attachments/1310562212003319849/1323554894661030031/pink_discord_server_banner_by_dysphoriadesigns_deymkj6-fullview.jpg?ex=6777930d&is=6776418d&hm=639567a8a5847270fc24cb65361f9cd2bffe13be015b56d1fe14e52ab8985a8a&s"
+    },
+    "moment-2": {
+      "position": 2,
+      "title": "Another Title",
+      "hashtags": ["#tag1", "#tag2"],
+      "description": "lorem adsfasdfasdfasdfasdfasdf",
+      "ImageUrl": "../images/TBYN_CH_BANNER_v2.gif"
+    },
+    "moment-3": {
+      "position": 3,
+      "title": "Another Title",
+      "hashtags": ["#tag1", "#tag2"],
+      "description": "lorem adsfasdfasdfasdfasdfasdf",
+      "ImageUrl": "../images/TBYN_CH_BANNER_v2.gif"
+    }
+  }
+}
