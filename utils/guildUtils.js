@@ -274,9 +274,9 @@ async function checkSuspensions() {
     for (const guild of guildsList) {
       try {
         // Get the Discord server and member
-        const discordGuild = client.guilds.cache.get(config.ServerId);
+        const discordGuild = client.guilds.cache.get(config.guildId);
         if (!discordGuild) {
-          logger.error(`Discord guild not found: ${config.ServerId}`);
+          logger.error(`Discord guild not found: ${config.guildId}`);
           continue;
         }
 
